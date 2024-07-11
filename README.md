@@ -31,7 +31,7 @@ Anomaly detection and localization is crucial in various domains, such as indust
 Clone this repository and install the required dependencies:
 
 ```bash
-git clone https://github.com/yourusername/FAVAE_Anomaly_Detection_And_Localization.git
+git clone https://github.com/Kidus-Bellete/FAVAE_Anomaly_Detection_And_Localization.git
 cd FAVAE_Anomaly_Detection_And_Localization
 pip install -r requirements.txt
 ```
