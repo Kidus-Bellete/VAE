@@ -19,31 +19,12 @@ This repository contains the implementation of Feature Augmented Variational Aut
 
 Anomaly detection and localization is crucial in various domains, such as industrial inspection, medical imaging, and security. This project utilizes a Variational Auto Encoder (VAE) architecture augmented with additional features to improve the performance of anomaly detection and localization.
 
-The Feature Augmented Variational Auto Encoder (FAVAE) is an advanced deep learning model designed to tackle the challenges of anomaly detection and localization in image data. By combining the generative power of VAEs with enhanced feature extraction techniques, FAVAE offers several advantages over traditional approaches:
-
-1. **Unsupervised Learning**: FAVAE can learn from normal data without requiring labeled anomalies, making it suitable for scenarios where anomalies are rare or unknown.
-
-2. **Feature Augmentation**: Unlike standard VAEs, FAVAE incorporates additional feature extraction layers that capture both low-level and high-level image characteristics. This augmentation allows for more nuanced representation of normal patterns and better detection of subtle anomalies.
-
-3. **Localization Capability**: In addition to detecting the presence of anomalies, FAVAE can pinpoint their location within the image. This is achieved through a novel reconstruction-based localization technique that highlights areas of high reconstruction error.
-
-4. **Adaptability**: The model is designed to work with various types of image data, from simple textures to complex object arrangements, making it versatile for different industrial and scientific applications.
-
-5. **Interpretability**: By visualizing the reconstructed images and localization maps, users can gain insights into why certain regions are flagged as anomalous, aiding in root cause analysis.
-
-The FAVAE model is trained on a dataset of normal images, learning to compress and reconstruct them efficiently. During inference, it attempts to reconstruct test images. Anomalies are detected based on the reconstruction error, with higher errors indicating a higher likelihood of anomalous regions.
-
-This implementation includes scripts for data preprocessing, model training, evaluation, and visualization of results. It's designed to be easily adaptable to different datasets and use cases within the domain of visual anomaly detection.
-
 ## Features
 
 - Variational Auto Encoder with feature augmentations
-- Unsupervised anomaly detection
-- Pixel-wise anomaly localization
+- Anomaly detection and localization
 - Support for MVTec Anomaly Detection dataset
 - Easy to use training and testing scripts
-- Visualization tools for model outputs
-- Flexible architecture for adaptation to various image types
 
 ## Installation
 
