@@ -43,7 +43,7 @@ pip install -r requirements.txt
 To train the FAVAE model, run:
 
 ```bash
-python train.py
+python train.py --obj bottle --do_aug
 ```
 
 You can adjust the training parameters in the `train.py` script.
@@ -66,6 +66,8 @@ FAVAE_Anomaly_Detection_And_Localization/
 │   ├── mvtec.py           # MVTec dataset loader
 │   └── preprocessing.py   # Data preprocessing script
 ├── imgs/                  # Sample images for reference
+├── results/               # the output images 
+├── train_patches/         # MVTec dataset 600000 images 
 │   ├── 2.png
 │   ├── 3.png
 │   ├── 4.png
